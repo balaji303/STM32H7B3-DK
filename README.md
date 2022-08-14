@@ -7,3 +7,7 @@ STM32H7B3-DK repo is a part of STM-Boards repo
 - [DS-STM32H7B3](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/DS-stm32h7b3li.pdf)
 - [UM-STM32H7B3-DK](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/STM32H7B3I-DK_UM.pdf)
 - [PM-STM32H7B3](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/pm0253-stm32h7-programming-manual-stm.pdf)
+- [AN-Bootloader-GEN](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/an2606-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf)
+- [TN-ST-Link](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/tn1235-overview-of-stlink-derivatives-stmicroelectronics.pdf)
+- [TN-STmod Interface](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/tn1238-stmod-interface-specification-stmicroelectronics.pdf)
+- [UM-STmod-Fanout-board](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/um2695-stmod-fanout-expansion-board-for-stm32-discovery-kits-and-evaluation-boards-stmicroelectronics.pdf)
