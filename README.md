@@ -4,11 +4,12 @@ STM32H7B3-DK repo is a part of STM-Boards repo
 ## Basic Projects
 
 - [001_ButtonScreen](https://github.com/balaji303/STM32H7B3-DK/tree/main/TouchGFXProjects/001_ButtonScreen)
+- [002_LEDBlink_ScreenButton](https://github.com/balaji303/STM32H7B3-DK/tree/main/TouchGFXProjects/002_LEDBlink_ScreenButton)
 
 ## Project Videos
 
 - [001_ButtonScreen](https://youtube.com/shorts/hCuj9LFTcu8)
-- [002](https://youtube.com/shorts/Nu2O2cgm_yc)
+- [002_LEDBlink_ScreenButton](https://youtube.com/shorts/Nu2O2cgm_yc)
 
 ### Docs
 - [Schematics](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/STM32H7B3I-B02_Schematic.PDF)
