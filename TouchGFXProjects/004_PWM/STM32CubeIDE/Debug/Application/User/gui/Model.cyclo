@@ -1,0 +1,3 @@
+Model.cpp:7:1:Model::Model()	1
+Model.cpp:12:6:void Model::tick()	1
+Model.cpp:18:6:void Model::SliderValue(int)	1

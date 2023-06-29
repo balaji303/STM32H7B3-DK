@@ -1,23 +1,10 @@
-07:13:30 **** Incremental Build of configuration Debug for project LEDBlink01 ****
+10:55:49 **** Incremental Build of configuration Debug for project LEDBlink01 ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H7B3xxQ -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c:499:13: warning: 'MX_SDMMC1_SD_Init' defined but not used [-Wunused-function]
-  499 | static void MX_SDMMC1_SD_Init(void)
-      |             ^~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "LEDBlink01.elf" @"objects.list"   -mcpu=cortex-m7 -T"E:\GitHub\STM32H7B3-DK\workspace\LEDBlink01\STM32H7B3LIHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="LEDBlink01.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LEDBlink01.elf
- 
 arm-none-eabi-size   LEDBlink01.elf 
-arm-none-eabi-objdump -h -S  LEDBlink01.elf  > "LEDBlink01.list"
-arm-none-eabi-objcopy  -O binary  LEDBlink01.elf  "LEDBlink01.bin"
    text	   data	    bss	    dec	    hex	filename
-  33984	     24	   2496	  36504	   8e98	LEDBlink01.elf
+  33940	     24	   2368	  36332	   8dec	LEDBlink01.elf
 Finished building: default.size.stdout
  
-Finished building: LEDBlink01.bin
- 
-Finished building: LEDBlink01.list
- 
 
-07:13:32 Build Finished. 0 errors, 1 warnings. (took 2s.172ms)
+10:55:50 Build Finished. 0 errors, 0 warnings. (took 516ms)
 
