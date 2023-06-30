@@ -19,6 +19,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\GitHub\STM32H7B3-DK\TouchGFXProjects\004_SliderPWM_LED"/>
 			<item value="E:\GitHub\STM32H7B3-DK\TouchGFXProjects\003_Counter"/>
 			<item value="E:\GitHub\STM32H7B3-DK\TouchGFXProjects\003_Counter\STM32CubeIDE"/>
 		</list>
