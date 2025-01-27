@@ -16,17 +16,33 @@ void AppScreenView::tearDownScreen()
 }
 
 /*@Balaji303 Modified start*/
-void AppScreenView::ButtonCallsThisFunc()
+void AppScreenView::ButtonToggleFunction()
 {
 	if(toggleButton1.getState())
 	{
-		// If the button is ON -> Set Gauge1 to 69
-		gauge1.setValue(69);
+		//When toggleButton1 clicked hide OFF_LED
+		//Hide OFF_LED
+		OFF_LED.setVisible(false);
+		OFF_LED.invalidate();
+
+		//Interaction2
+		//When toggleButton1 clicked show ON_LED
+		//Show ON_LED
+		ON_LED.setVisible(true);
+		ON_LED.invalidate();
 	}
 	else
 	{
-		// Set Gauge1
-		gauge1.setValue(0);
+		//When toggleButton1 clicked hide OFF_LED
+		//Show OFF_LED
+		OFF_LED.setVisible(true);
+		OFF_LED.invalidate();
+
+		//Interaction2
+		//When toggleButton1 clicked show ON_LED
+		//Hide ON_LED
+		ON_LED.setVisible(false);
+		ON_LED.invalidate();
 	}
 }
 /*@Balaji303 Modified end*/

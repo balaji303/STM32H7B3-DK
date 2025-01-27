@@ -1,4 +1,5 @@
 Bitmap.hpp:133:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	1
+Drawable.hpp:515:10:void touchgfx::Drawable::setVisible(bool)	1
 Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
 Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
 Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
@@ -9,4 +10,4 @@ AppScreenView.hpp:11:13:virtual AppScreenView::~AppScreenView()	1
 AppScreenView.cpp:3:1:AppScreenView::AppScreenView()	1
 AppScreenView.cpp:8:6:virtual void AppScreenView::setupScreen()	1
 AppScreenView.cpp:13:6:virtual void AppScreenView::tearDownScreen()	1
-AppScreenView.cpp:19:6:virtual void AppScreenView::ButtonCallsThisFunc()	2
+AppScreenView.cpp:19:6:virtual void AppScreenView::ButtonToggleFunction()	2

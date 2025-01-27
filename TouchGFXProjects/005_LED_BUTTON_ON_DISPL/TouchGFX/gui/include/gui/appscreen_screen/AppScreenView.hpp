@@ -12,7 +12,7 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
     /*@Balaji303 Modified start*/
-    virtual void ButtonCallsThisFunc();
+    virtual void ButtonToggleFunction();
     /*@Balaji303 Modified end*/
 protected:
 };

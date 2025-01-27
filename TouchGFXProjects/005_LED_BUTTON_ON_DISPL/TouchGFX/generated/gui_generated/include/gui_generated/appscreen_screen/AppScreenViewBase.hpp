@@ -10,10 +10,8 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
 #include <touchgfx/widgets/ToggleButton.hpp>
-#include <touchgfx/EasingEquations.hpp>
-#include <touchgfx/mixins/MoveAnimator.hpp>
-#include <touchgfx/widgets/Gauge.hpp>
-#include <touchgfx/widgets/canvas/PainterRGB888.hpp>
+#include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class AppScreenViewBase : public touchgfx::View<AppScreenPresenter>
 {
@@ -25,7 +23,7 @@ public:
     /*
      * Virtual Action Handlers
      */
-    virtual void ButtonCallsThisFunc()
+    virtual void ButtonToggleFunction()
     {
         // Override and implement this function in AppScreen
     }
@@ -40,17 +38,13 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::ScalableImage BG_Image;
-    touchgfx::MoveAnimator< touchgfx::ToggleButton > toggleButton1;
-    touchgfx::Gauge gauge1;
-    touchgfx::PainterRGB888 gauge1Painter;
+    touchgfx::ToggleButton toggleButton1;
+    touchgfx::Image OFF_LED;
+    touchgfx::Image ON_LED;
+    touchgfx::TextArea textArea1;
+    touchgfx::TextArea textArea1_1;
 
 private:
-
-    /*
-     * Canvas Buffer Size
-     */
-    static const uint32_t CANVAS_BUFFER_SIZE = 7200;
-    uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
 
     /*
      * Callback Declarations

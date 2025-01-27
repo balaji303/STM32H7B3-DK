@@ -12,6 +12,8 @@ enum LANGUAGES
 
 enum TEXTS
 {
+    T___SINGLEUSE_HA2U,
+    T___SINGLEUSE_26ZK,
     NUMBER_OF_TEXT_KEYS
 };
 

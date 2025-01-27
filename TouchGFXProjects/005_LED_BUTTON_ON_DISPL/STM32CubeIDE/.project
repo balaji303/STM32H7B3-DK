@@ -695,14 +695,14 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_backgrounds_1024x600_shattered_rain_light.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_alternate_theme_images_widgets_gauge_medium_backgrounds_dark_filled.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_button_icon_round_micro_fill_active.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_gauge_medium_backgrounds_dark_filled.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_icon_round_micro_fill_active.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_alternate_theme_images_widgets_gauge_medium_needles_rough.cpp</name>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_button_icon_round_micro_outline_disabled.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_gauge_medium_needles_rough.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_icon_round_micro_outline_disabled.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_large_round_text_off_normal.cpp</name>
@@ -713,6 +713,16 @@
 			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_large_round_text_on_active.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_large_round_text_on_active.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_OFF.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_OFF.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_ON.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_ON.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

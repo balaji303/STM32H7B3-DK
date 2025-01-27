@@ -3,7 +3,6 @@
     "Screens": [
       {
         "Name": "AppScreen",
-        "CanvasBufferSize": 7200,
         "Components": [
           {
             "Type": "ScalableImage",
@@ -16,43 +15,63 @@
           {
             "Type": "ToggleButton",
             "Name": "toggleButton1",
-            "X": 298,
-            "Y": 106,
+            "X": 155,
+            "Y": 136,
             "Width": 170,
             "Height": 60,
             "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_on_active.png",
-            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_off_normal.png",
-            "Moveable": true
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_off_normal.png"
           },
           {
-            "Type": "Gauge",
-            "Name": "gauge1",
-            "X": 13,
-            "Y": 16,
-            "Width": 240,
-            "Height": 240,
-            "FileNameBackground": "__generated\\alternate_theme_images_widgets_gauge_medium_backgrounds_dark_filled.png",
-            "RotationCenterX": 120.0,
-            "RotationCenterY": 120.0,
-            "StartAngle": -113.0,
-            "EndAngle": 112.0,
-            "RangeMax": 100.0,
-            "UseAnimation": true,
-            "Easing": "Linear",
-            "EasingOption": "In",
-            "FileNameNeedle": "__generated\\alternate_theme_images_widgets_gauge_medium_needles_rough.png",
-            "NeedleRotationCenterX": 7.0,
-            "NeedleRotationCenterY": 67.0,
-            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
-            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
-            "UseArc": true,
-            "ArcColor": {
-              "Red": 217,
-              "Green": 33,
-              "Blue": 33
+            "Type": "Image",
+            "Name": "OFF_LED",
+            "X": 222,
+            "Y": 75,
+            "Width": 36,
+            "Height": 36,
+            "RelativeFilename": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_disabled.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "ON_LED",
+            "X": 222,
+            "Y": 75,
+            "Width": 36,
+            "Height": 36,
+            "Visible": false,
+            "RelativeFilename": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 87,
+            "Y": 20,
+            "Width": 306,
+            "Height": 25,
+            "TextId": "__SingleUse_26ZK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 233,
+              "Blue": 102
             },
-            "ArcCapStyle": "Triangle",
-            "ArcOnTopOfNeedle": true
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 193,
+            "Y": 218,
+            "Width": 114,
+            "Height": 25,
+            "TextId": "__SingleUse_HA2U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 245,
+              "Blue": 10
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": [
@@ -64,7 +83,7 @@
             },
             "Action": {
               "Type": "ActionCustom",
-              "FunctionName": "ButtonCallsThisFunc"
+              "FunctionName": "ButtonToggleFunction"
             }
           }
         ]
