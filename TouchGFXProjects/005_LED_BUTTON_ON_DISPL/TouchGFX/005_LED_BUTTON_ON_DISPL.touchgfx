@@ -1,0 +1,151 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "AppScreen",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "BG_Image",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "__generated\\alternate_theme_images_backgrounds_1024x600_shattered_rain_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 155,
+            "Y": 136,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_on_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_large_round_text_off_normal.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "OFF_LED",
+            "X": 222,
+            "Y": 75,
+            "Width": 36,
+            "Height": 36,
+            "RelativeFilename": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_disabled.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "ON_LED",
+            "X": 222,
+            "Y": 75,
+            "Width": 36,
+            "Height": 36,
+            "Visible": false,
+            "RelativeFilename": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_active.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 87,
+            "Y": 20,
+            "Width": 306,
+            "Height": 25,
+            "TextId": "__SingleUse_26ZK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 233,
+              "Blue": 102
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 193,
+            "Y": 218,
+            "Width": 114,
+            "Height": 25,
+            "TextId": "__SingleUse_HA2U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 100,
+              "Green": 245,
+              "Blue": 10
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ButtonToggleFunction"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "005_LED_BUTTON_ON_DISPL",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "AppScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H7A3/7B3",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H7B3I-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.21.4",
+  "CreatedBy": "4.21.4"
+}
