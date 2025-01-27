@@ -13,9 +13,10 @@ STM32H7B3-DK repo is a part of STM-Boards repo
 
 ## Some Useful Images
 
-![BD](https://www.mouser.in/images/marketingid/2019/microsites/167259598/STM_STM32H7B3I-DK_BD.png)
-![BLB](https://www.mouser.in/images/marketingid/2019/microsites/167259598/STM_STM32H7B3I-DK_BLB.png)
-![BLT](https://www.mouser.in/images/marketingid/2019/microsites/167259598/STM_STM32H7B3I-DK_BLT.png)
+![BD](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/STM_STM32H7B3I-DK_BD.png)
+![BLB](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/STM_STM32H7B3I-DK_BLB.png)
+![BLT](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/STM_STM32H7B3I-DK_BLT.png)
+![Overview](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/stm32h7b3i_dk.jpg)
 
 ### Docs
 - [Schematics](https://github.com/balaji303/STM32H7B3-DK/blob/main/docs/STM32H7B3I-B02_Schematic.PDF)
