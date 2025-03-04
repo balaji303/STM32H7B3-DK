@@ -10,6 +10,12 @@ STM32H7B3-DK repo is a part of STM-Boards repo
 
 - [001_ButtonScreen](https://youtube.com/shorts/hCuj9LFTcu8)
 - [002_LEDBlink_ScreenButton](https://youtube.com/shorts/Nu2O2cgm_yc)
+- [003_Counter](https://www.youtube.com/shorts/gmhQ7zp_fIQ)
+- [004_PWM](https://www.youtube.com/watch?v=A0dhlpEnOkM)
+- [005_LED_BUTTON_ON_DISPL](https://www.youtube.com/shorts/gmhQ7zp_fIQ)
+- [006_Button_LEDonSCRN](https://www.youtube.com/shorts/RfTS3oMogr8)
+- [008_BTN_SCR_CHN_Interrupt](https://www.youtube.com/shorts/qovcngVwAU0)
+- [009_ADC_GUAGE](https://youtu.be/So1QxwpqcqQ)
 
 ## Some Useful Images
 
